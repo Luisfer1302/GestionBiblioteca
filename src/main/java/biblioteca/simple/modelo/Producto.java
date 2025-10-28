@@ -38,6 +38,8 @@ public abstract class Producto {
         return formato;
     }
 
+
+
     @Override
     public String toString() {
         return "Producto{" +
