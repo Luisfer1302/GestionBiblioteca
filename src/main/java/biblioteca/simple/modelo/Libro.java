@@ -9,13 +9,13 @@ public class Libro extends Producto implements Prestable {
     private boolean prestado;
     private Usuario prestadoA;
 
-    public Libro(int id, String titulo, String anho, Formato formato, String ISBN, String autor) {
+    public Libro(int id, String titulo, String anho, Formato formato) {
         super(id, titulo, anho, formato);
         this.ISBN = ISBN;
         this.autor = autor;
     }
 
-    public Libro(String titulo, String anho, Formato formato, String ISBN, String autor) {
+    public Libro(int i, String titulo, String anho, Formato formato, String ISBN, String autor) {
         super(titulo, anho, formato);
         this.ISBN = ISBN;
         this.autor = autor;
